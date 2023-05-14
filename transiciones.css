@@ -1,0 +1,33 @@
+.btn-modern{
+    background-color: pink;
+    color: whitesmoke;
+    border-radius: 5px;
+    border-color: fuchsia;
+    margin: 20px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+
+}
+
+.btn-modern:hover {
+    animation: traslacion 4s;
+    /*transition: 0.4s;
+    background-color: fuchsia;
+    color: black;
+    border-color: black;
+    translate: -5px ;*/
+}
+
+@keyframes traslacion {
+    0% {
+        background-color: pink;
+    }
+    100% {
+        background-color: fuchsia;
+        color: black;
+        border-color: black;
+        transform: translateY(-5px);
+        box-shadow: 10px 10px grey;
+    }
+}
